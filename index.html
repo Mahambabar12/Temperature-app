@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempreture</title>
+</head>
+<body style="background-color:rgb(253, 208, 238);">
+    <h1 style="text-align:center;background-color: rgb(7, 7, 7);color: white;">Temperature App</h1>
+
+    <form onsubmit="conditionCheck(); return false">
+        <label for="temp"><b>Temperature:</b></label>
+        <input type="number"id="temp">
+
+        <input type="submit" value="Check">
+    </form>
+
+    <p id="result"></p>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
